@@ -13,7 +13,6 @@ for i in range(n):
 
     animals.append(animal)
 
-
 print(f"You have added {n} animals: ")
 for animal in animals:
     animal.display_info()
