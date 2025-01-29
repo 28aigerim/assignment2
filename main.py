@@ -18,6 +18,7 @@ print(f"You have added {n} animals: ")
 for animal in animals:
     animal.display_info()
 
+
 does_eat = int(input('Do you give animals food? (1/0) '))
 if does_eat == 1:
     for animal in animals:
